@@ -1888,6 +1888,39 @@ body {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
+.cid-rpjKbEJcI9 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-rpjKbEJcI9 .counter-container {
+  color: #767676;
+}
+.cid-rpjKbEJcI9 .counter-container ul {
+  margin-bottom: 0;
+}
+.cid-rpjKbEJcI9 .counter-container ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.cid-rpjKbEJcI9 .counter-container ul li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  padding-top: 3px;
+  content: '';
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 20px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #149dcc;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  content: '✓';
+}
 .cid-rpj5inzBRY .navbar {
   background: #ffffff;
   transition: none;
