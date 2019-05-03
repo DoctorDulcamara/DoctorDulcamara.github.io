@@ -56,7 +56,7 @@ body {
 }
 
 .gallery-caption {
-  font-size: 5rem;
+  font-size: 1rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
