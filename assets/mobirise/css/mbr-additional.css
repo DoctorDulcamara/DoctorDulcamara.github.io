@@ -1387,11 +1387,31 @@ body {
   background-color: #149dcc;
   color: #ffffff;
 }
-.jq-selectbox .jq-selectbox__trigger-arrow {
-  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
 }
-.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
   border-top-color: #149dcc;
+  border-bottom-color: #149dcc;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  color: #ffffff !important;
+  background-color: #149dcc !important;
+  box-shadow: none!important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #ffffff !important;
+  background: #ff3366 !important;
+  box-shadow: none !important;
 }
 .cid-rpj5inzBRY .navbar {
   background: #ffffff;
@@ -1983,67 +2003,45 @@ body {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
-.cid-rppvyejPNj {
+.cid-rttG6aRges {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #ffffff;
+  background-color: #efefef;
 }
-.cid-rppvyejPNj .mbr-slider .carousel-control {
-  background: #1b1b1b;
+.cid-rttG6aRges .card-box {
+  padding: 0 2rem;
 }
-.cid-rppvyejPNj .mbr-slider .carousel-control-prev {
-  left: 0;
-  margin-left: 2.5rem;
+.cid-rttG6aRges .mbr-section-btn {
+  padding-top: 1rem;
 }
-.cid-rppvyejPNj .mbr-slider .carousel-control-next {
-  right: 0;
-  margin-right: 2.5rem;
+.cid-rttG6aRges .mbr-section-btn a {
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
-.cid-rppvyejPNj .mbr-slider .modal-body .close {
-  background: #1b1b1b;
+.cid-rttG6aRges h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
 }
-.cid-rppvyejPNj .mbr-gallery-item > div::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
+.cid-rttG6aRges p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.cid-rttG6aRges .mbr-text {
+  color: #767676;
+}
+.cid-rttG6aRges .card-wrapper {
   height: 100%;
-  background: #554346;
-  opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
-  background: linear-gradient(to left, #554346, #45505b) !important;
+  padding-bottom: 2rem;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
 }
-.cid-rppvyejPNj .mbr-gallery-item > div:hover .mbr-gallery-title::before {
-  background: transparent !important;
-}
-.cid-rppvyejPNj .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
-}
-.cid-rppvyejPNj .mbr-gallery-title {
-  font-size: .9em;
-  position: absolute;
-  display: block;
-  width: 100%;
-  bottom: 0;
-  padding: 1rem;
-  color: #fff;
-  z-index: 2;
-}
-.cid-rppvyejPNj .mbr-gallery-title:before {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  position: absolute;
-  background: #554346 !important;
-  opacity: 0.7;
-  -webkit-transition: 0.2s background ease-in-out;
-  transition: 0.2s background ease-in-out;
-  background: linear-gradient(to left, #554346, #45505b) !important;
+.cid-rttG6aRges .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
 }
 .cid-rpj5inzBRY .navbar {
   background: #ffffff;
