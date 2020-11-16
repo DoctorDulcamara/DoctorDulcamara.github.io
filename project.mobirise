@@ -46,7 +46,7 @@
       }
     ],
     "uniqCompNum": 165,
-    "versionPublish": "4.12.3",
+    "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/favicon-1.gif",
@@ -2040,7 +2040,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-section-btn mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-8 align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-warning\" href=\"assets/files/Glossary-of-Drugs.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">VIEW THE CURES .PDF</a> <a class=\"btn btn-warning\" href=\"assets/files/Glossary-of-Drugs.xlsx\" data-app-placeholder=\"Type Text\" target=\"_blank\">VIEW THE CURES .XLSX</a></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-section-btn mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-8 align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-warning\" href=\"assets/files/Glossary-of-Drugs.pdf\" data-app-placeholder=\"Type Text\" target=\"_blank\">VIEW THE REMEDIES .PDF</a> <a class=\"btn btn-warning\" href=\"assets/files/Glossary-of-Drugs.xlsx\" data-app-placeholder=\"Type Text\" target=\"_blank\">VIEW THE REMEDIES .XLSX</a></div>\n        </div>\n    </div>\n</section>",
           "_cid": "s2biixiwB8",
           "_anchor": "content5-1r",
           "_protectedParams": [],
