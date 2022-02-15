@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 205,
+    "uniqCompNum": 209,
     "versionPublish": "5.6.0",
     "screenshot": "screenshot.png",
     "imageResize": true,
@@ -58,7 +58,11 @@
     "cookiesAlert": false,
     "gdpr": false,
     "publishChangesOnly": true,
-    "mbrsiteDomain": "jbelkgk7fm"
+    "mbrsiteDomain": "m8zdzvptbi",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
+    "gitHubName": "DoctorDulcamara",
+    "gitHubPath": ""
   },
   "pages": {
     "index.html": {
@@ -352,7 +356,7 @@
     "buildings.html": {
       "settings": {
         "title": "Buildings",
-        "order": 43,
+        "order": 44,
         "meta_descr": "Buildings picture gallery"
       },
       "components": [
@@ -688,7 +692,7 @@
     "houses-and-gardens.html": {
       "settings": {
         "title": "Houses & Gardens",
-        "order": 42,
+        "order": 43,
         "meta_descr": "Pictures of houses and gardens"
       },
       "components": [
@@ -1003,7 +1007,7 @@
     "museums.html": {
       "settings": {
         "title": "Museums",
-        "order": 41,
+        "order": 42,
         "meta_descr": "Museums picture gallery"
       },
       "components": [
@@ -1034,7 +1038,7 @@
     "travel.html": {
       "settings": {
         "title": "Travel",
-        "order": 40,
+        "order": 41,
         "meta_descr": "Travel picture gallery"
       },
       "components": [
@@ -1367,7 +1371,7 @@
     "pharmacy-museums.html": {
       "settings": {
         "title": "Pharmacy Museums",
-        "order": 26,
+        "order": 27,
         "meta_descr": "Gallery of pharmacy museums"
       },
       "components": [
@@ -1698,7 +1702,7 @@
     "internet-of-things.html": {
       "settings": {
         "title": "Internet of Things",
-        "order": 39,
+        "order": 40,
         "meta_descr": "Articles from the Internet of Things"
       },
       "components": [
@@ -2246,7 +2250,7 @@
           },
           "_name": "gallery1",
           "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"amp-lightbox-gallery\" group=\"Carousels &amp; Sliders\" plugins=\"amp-main, amp-lightbox-gallery\">\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\t\t<input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\t\t<input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n\t\t<input type=\"checkbox\" name=\"masonryStyle\" title=\"Masonry Style\" condition=\"!squareStyle\">\n\t\t<input type=\"checkbox\" name=\"squareStyle\" title=\"Square Style\" condition=\"!masonryStyle\">\n\t\t<input type=\"range\" min=\"50\" max=\"1000\" step=\"10\" value=\"70\" name=\"masonryHeight\" title=\"Height\" condition=\"masonryStyle\">\n\n\t\t<header>Show Hide</header>\n\t\t<input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked=\"\">\n\t\t<input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n\n\t\t<header>Image</header>\n\t\t<input type=\"range\" name=\"imageWidth\" title=\"Width\" min=\"2\" max=\"4\" step=\"1\" value=\"3\">\n\t\t<input type=\"checkbox\" name=\"showText\" title=\"Text\" checked=\"\">\n\t\t<input type=\"color\" name=\"bgColor\" title=\"BG Color\" value=\"#005af0\" condition=\"showText\">\n\t\t<input type=\"range\" name=\"bgOpacity\" title=\"Opacity\" value=\"0.5\" min=\"0\" max=\"1\" step=\"0.1\" condition=\"showText\">\n\n\t\t<header condition=\"customStyle\">Custom Styles</header>\n\t\t<input type=\"checkbox\" name=\"noPaddings\" title=\"Without Padding\">\n\t\t<input type=\"checkbox\" name=\"customStyles\" title=\"Custom Style\" checked=\"\">\n\n\t\t<header condition=\"customStyles\">Paddings</header>\n\t\t<input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"5\" step=\"0.5\" value=\"1\" condition=\"customStyles &amp;&amp; !noPaddings\">\n\n\t\t<header condition=\"customStyles\">Overlay</header>\n\t\t<input type=\"checkbox\" name=\"hoverOverlay\" title=\"Enable\" condition=\"customStyles\">\n\t\t<input type=\"color\" name=\"hoverColor\" value=\"#005af0\" title=\"Color\" condition=\"customStyles &amp;&amp; hoverOverlay\">\n\t\t<input type=\"range\" name=\"hoverOpacity\" value=\"0.5\" min=\"0\" max=\"1\" step=\"0.1\" title=\"Opacity\" condition=\"customStyles &amp;&amp; hoverOverlay\">\n\t\t<input type=\"checkbox\" name=\"hoverIcon\" title=\"Show Icon\" condition=\"customStyles\" checked=\"\">\n\t\t<input type=\"color\" name=\"iconColor\" value=\"#ffffff\" title=\"Icon Color\" condition=\"customStyles &amp;&amp; hoverIcon\">\n\t\t<input type=\"range\" name=\"iconSize\" title=\"Icon Size\" min=\"1\" max=\"3\" step=\"0.5\" value=\"2\" condition=\"customStyles &amp;&amp; hoverIcon\">\n\n\t\t<header condition=\"customStyles\">Box Shadow</header>\n\t\t<input type=\"checkbox\" name=\"boxShadow\" title=\"Shadow\" condition=\"customStyles\" checked=\"\">\n\t\t<input type=\"range\" name=\"shadowSize\" title=\"Size\" min=\"0\" max=\"100\" step=\"1\" value=\"15\" condition=\"customStyles &amp;&amp; boxShadow\">\n\t\t<input type=\"range\" name=\"shadowOpacity\" title=\"Opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"customStyles &amp;&amp; boxShadow\">\n\t\t<input type=\"color\" name=\"shadowColor\" title=\"Color\" condition=\"customStyles &amp;&amp; boxShadow\">\n\n\t\t<header condition=\"customStyles\">Border Radius</header>\n\t\t<input type=\"checkbox\" name=\"useBorderRadius\" title=\"Round Border\" condition=\"customStyles\" checked=\"\">\n\t\t<input type=\"range\" name=\"borderRadius\" title=\"Size\" min=\"0\" max=\"50\" step=\"1\" value=\"10\" condition=\"customStyles &amp;&amp; useBorderRadius\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" required=\"\">\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n\t\t<input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n\t</mbr-parameters>\n    \n\t<div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\"></div>\n    \n\t<div mbr-class=\"{'container': !fullWidth,\n\t\t\t\t\t 'container-fluid': fullWidth}\">\n\t\t<div class=\"title mbr-pb-4 align-center\" mbr-if=\"showTitle || showSubtitle\">\n\t\t\t<h3 class=\"mbr-section-title mbr-bold mbr-fonts-style mbr-pb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Gallery with Image Links and Lightboxes</h3>\n\t\t\t<h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Enter your gallery subtitle here</h4>\n\t\t</div>\n\t\t<div class=\"mbr-row\" mbr-class=\"{'mbr-column mbr-jc-s': masonryStyle}\">\n            <div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/2021-02-22-10.37.17-695x927.jpg\" layout=\"responsive\" width=\"347.99313237410075\" height=\"260.901\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">garden in naples</p>\n\t\t\t\t\t\t<a href=\"garden-in-naples.html\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/2021-02-22-10.37.17-695x927.jpg\" alt=\"\" data-slide-to=\"0\" data-aspectratio=\"0.749730312837109\" lightbox=\"true\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"\" src=\"@THEME_PATH@/components/_images/img/07.jpg\" layout=\"responsive\" width=\"347.9925\" height=\"231.995\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@THEME_PATH@/components/_images/img/07.jpg\" alt=\"\" data-slide-to=\"4\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"\" src=\"@THEME_PATH@/components/_images/img/01.jpg\" layout=\"responsive\" width=\"347.9925\" height=\"231.995\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@THEME_PATH@/components/_images/img/01.jpg\" alt=\"\" data-slide-to=\"5\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t</div>\n</section>",
+          "_customHTML": "<section class=\"amp-lightbox-gallery\" group=\"Carousels &amp; Sliders\" plugins=\"amp-main, amp-lightbox-gallery\">\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\t\t<input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\t\t<input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n\t\t<input type=\"checkbox\" name=\"masonryStyle\" title=\"Masonry Style\" condition=\"!squareStyle\">\n\t\t<input type=\"checkbox\" name=\"squareStyle\" title=\"Square Style\" condition=\"!masonryStyle\">\n\t\t<input type=\"range\" min=\"50\" max=\"1000\" step=\"10\" value=\"70\" name=\"masonryHeight\" title=\"Height\" condition=\"masonryStyle\">\n\n\t\t<header>Show Hide</header>\n\t\t<input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked=\"\">\n\t\t<input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n\n\t\t<header>Image</header>\n\t\t<input type=\"range\" name=\"imageWidth\" title=\"Width\" min=\"2\" max=\"4\" step=\"1\" value=\"3\">\n\t\t<input type=\"checkbox\" name=\"showText\" title=\"Text\" checked=\"\">\n\t\t<input type=\"color\" name=\"bgColor\" title=\"BG Color\" value=\"#005af0\" condition=\"showText\">\n\t\t<input type=\"range\" name=\"bgOpacity\" title=\"Opacity\" value=\"0.5\" min=\"0\" max=\"1\" step=\"0.1\" condition=\"showText\">\n\n\t\t<header condition=\"customStyle\">Custom Styles</header>\n\t\t<input type=\"checkbox\" name=\"noPaddings\" title=\"Without Padding\">\n\t\t<input type=\"checkbox\" name=\"customStyles\" title=\"Custom Style\" checked=\"\">\n\n\t\t<header condition=\"customStyles\">Paddings</header>\n\t\t<input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"5\" step=\"0.5\" value=\"1\" condition=\"customStyles &amp;&amp; !noPaddings\">\n\n\t\t<header condition=\"customStyles\">Overlay</header>\n\t\t<input type=\"checkbox\" name=\"hoverOverlay\" title=\"Enable\" condition=\"customStyles\">\n\t\t<input type=\"color\" name=\"hoverColor\" value=\"#005af0\" title=\"Color\" condition=\"customStyles &amp;&amp; hoverOverlay\">\n\t\t<input type=\"range\" name=\"hoverOpacity\" value=\"0.5\" min=\"0\" max=\"1\" step=\"0.1\" title=\"Opacity\" condition=\"customStyles &amp;&amp; hoverOverlay\">\n\t\t<input type=\"checkbox\" name=\"hoverIcon\" title=\"Show Icon\" condition=\"customStyles\" checked=\"\">\n\t\t<input type=\"color\" name=\"iconColor\" value=\"#ffffff\" title=\"Icon Color\" condition=\"customStyles &amp;&amp; hoverIcon\">\n\t\t<input type=\"range\" name=\"iconSize\" title=\"Icon Size\" min=\"1\" max=\"3\" step=\"0.5\" value=\"2\" condition=\"customStyles &amp;&amp; hoverIcon\">\n\n\t\t<header condition=\"customStyles\">Box Shadow</header>\n\t\t<input type=\"checkbox\" name=\"boxShadow\" title=\"Shadow\" condition=\"customStyles\" checked=\"\">\n\t\t<input type=\"range\" name=\"shadowSize\" title=\"Size\" min=\"0\" max=\"100\" step=\"1\" value=\"15\" condition=\"customStyles &amp;&amp; boxShadow\">\n\t\t<input type=\"range\" name=\"shadowOpacity\" title=\"Opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"customStyles &amp;&amp; boxShadow\">\n\t\t<input type=\"color\" name=\"shadowColor\" title=\"Color\" condition=\"customStyles &amp;&amp; boxShadow\">\n\n\t\t<header condition=\"customStyles\">Border Radius</header>\n\t\t<input type=\"checkbox\" name=\"useBorderRadius\" title=\"Round Border\" condition=\"customStyles\" checked=\"\">\n\t\t<input type=\"range\" name=\"borderRadius\" title=\"Size\" min=\"0\" max=\"50\" step=\"1\" value=\"10\" condition=\"customStyles &amp;&amp; useBorderRadius\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" required=\"\">\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n\t\t<input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type == 'image'\">\n\t</mbr-parameters>\n    \n\t<div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\"></div>\n    \n\t<div mbr-class=\"{'container': !fullWidth,\n\t\t\t\t\t 'container-fluid': fullWidth}\">\n\t\t<div class=\"title mbr-pb-4 align-center\" mbr-if=\"showTitle || showSubtitle\">\n\t\t\t<h3 class=\"mbr-section-title mbr-bold mbr-fonts-style mbr-pb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Gallery with Image Links and Lightboxes</h3>\n\t\t\t<h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Enter your gallery subtitle here</h4>\n\t\t</div>\n\t\t<div class=\"mbr-row\" mbr-class=\"{'mbr-column mbr-jc-s': masonryStyle}\">\n            <div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/2021-02-22%2010.37.17-695x927.jpg\" layout=\"responsive\" width=\"347.99313237410075\" height=\"260.901\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">garden in naples</p>\n\t\t\t\t\t\t<a href=\"garden-in-naples.html\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/2021-02-22%2010.37.17-695x927.jpg\" alt=\"\" data-slide-to=\"0\" data-aspectratio=\"0.749730312837109\" lightbox=\"true\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"\" src=\"@THEME_PATH@/components/_images/img/07.jpg\" layout=\"responsive\" width=\"347.9925\" height=\"231.995\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@THEME_PATH@/components/_images/img/07.jpg\" alt=\"\" data-slide-to=\"4\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img lightbox=\"\" src=\"@THEME_PATH@/components/_images/img/01.jpg\" layout=\"responsive\" width=\"347.9925\" height=\"231.995\" alt=\"image\" class=\"placeholder-loader lb-image\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@THEME_PATH@/components/_images/img/01.jpg\" alt=\"\" data-slide-to=\"5\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t</div>\n\t</div>\n</section>",
           "_cid": "sX7DFdyTek",
           "_anchor": "gallery1-5m",
           "_protectedParams": [],
@@ -2281,7 +2285,7 @@
     "farming.html": {
       "settings": {
         "title": "Farming",
-        "order": 38,
+        "order": 39,
         "meta_descr": "Articles about farming"
       },
       "components": [
@@ -2312,7 +2316,7 @@
     "gardening.html": {
       "settings": {
         "title": "Gardening",
-        "order": 37,
+        "order": 38,
         "meta_descr": "Articles about gardening"
       },
       "components": [
@@ -2480,7 +2484,7 @@
     "brewing.html": {
       "settings": {
         "title": "Brewing",
-        "order": 36,
+        "order": 37,
         "meta_descr": "Articles about brewing"
       },
       "components": [
@@ -2511,7 +2515,7 @@
     "history-of-pharmacy.html": {
       "settings": {
         "title": "Pots & Potions: A History of Remedies",
-        "order": 35,
+        "order": 36,
         "meta_descr": "History of Pharmacy and a glossary of early pharmacology"
       },
       "components": [
@@ -2625,7 +2629,7 @@
     "pharmacy-museums-belgium.html": {
       "settings": {
         "title": "Pharmacy Museums Belgium",
-        "order": 29,
+        "order": 30,
         "meta_descr": "Gallery of Pharmacy Museums Belgium"
       },
       "components": [
@@ -2789,7 +2793,7 @@
     "brugge-folklore-museum.html": {
       "settings": {
         "title": "Brugge Folklore Museum",
-        "order": 31,
+        "order": 32,
         "meta_descr": "Picture gallery of Brugge Folklore Museum (Hoogstraat Pharmacy)"
       },
       "components": [
@@ -3093,7 +3097,7 @@
     "brugge-museum-st-janshospitaal.html": {
       "settings": {
         "title": "Brugge Museum St-Janshospitaal",
-        "order": 30,
+        "order": 31,
         "meta_descr": "Brugge Museum St-Janshospitaal picture gallery"
       },
       "components": [
@@ -3399,7 +3403,7 @@
     "pharmacy-museums-italy.html": {
       "settings": {
         "title": "Pharmacy Museums Italy",
-        "order": 32,
+        "order": 33,
         "meta_descr": "Pharmacy museums in Italy picture gallery"
       },
       "components": [
@@ -3563,7 +3567,7 @@
     "genoa-antica-farmacia-sant-anna.html": {
       "settings": {
         "title": "Genoa Antica Farmacia Sant'Anna",
-        "order": 33,
+        "order": 34,
         "meta_descr": "Genoa Antica Farmacia Sant'Anna picture gallery"
       },
       "components": [
@@ -3869,7 +3873,7 @@
     "venice-farmacia-all-rcole-d-oro.html": {
       "settings": {
         "title": "Venice Farmacia all'Ercole d'oro",
-        "order": 34,
+        "order": 35,
         "meta_descr": "Venice Farmacia all'Ercole d'oro image gallery"
       },
       "components": [
@@ -3954,7 +3958,7 @@
     "pharmacy-museums-portugal.html": {
       "settings": {
         "title": "Pharmacy Museums Portugal",
-        "order": 27,
+        "order": 28,
         "meta_descr": "Pharmacy Museums Portugal picture galleries"
       },
       "components": [
@@ -4118,7 +4122,7 @@
     "lisbon-pharmacy-museum.html": {
       "settings": {
         "title": "Lisbon Pharmacy Museum",
-        "order": 28,
+        "order": 29,
         "meta_descr": "Lisbont Pharmacy Museum picture gallery"
       },
       "components": [
@@ -4424,7 +4428,7 @@
     "pharmacy-museums-france.html": {
       "settings": {
         "title": "Pharmacy Museums France",
-        "order": 25,
+        "order": 26,
         "meta_descr": "Galleries of Pharmacy Museums in France"
       },
       "components": [
@@ -4455,7 +4459,7 @@
     "macon-hotel-dieu-pharmacy.html": {
       "settings": {
         "title": "Macon Hotel-Dieu Pharmacy",
-        "order": 24,
+        "order": 25,
         "meta_descr": "Macon Hotel-Dieu Pharmacy picture gallery"
       },
       "components": [
@@ -4764,7 +4768,7 @@
     "buis-les-baronnies-lime-blossom-festival.html": {
       "settings": {
         "title": "Buis-les-Baronnies Lime Blossom Festival",
-        "order": 23,
+        "order": 24,
         "meta_descr": "Buis-les-Baronnies Lime blossom Festival picture gallery"
       },
       "components": [
@@ -5106,7 +5110,7 @@
     "sundial-picture-galleries.html": {
       "settings": {
         "title": "Sundial Picture Galleries",
-        "order": 22,
+        "order": 23,
         "meta_descr": "Sundial Picture Galleries"
       },
       "components": [
@@ -5444,7 +5448,7 @@
     "sundial-hatfield-house.html": {
       "settings": {
         "title": "Sundial at Hatfield House",
-        "order": 21,
+        "order": 22,
         "meta_descr": "Sundial at Hatfield House picture gallery"
       },
       "components": [
@@ -5751,7 +5755,7 @@
     "national-botanic-garden-of-wales-apothecaries-hall.html": {
       "settings": {
         "title": "National Botanic Garden of Wales Apothecary’s Hall",
-        "order": 20,
+        "order": 21,
         "meta_descr": "National Botanic Garden of Wales Apothecary’s Hall picture gallery"
       },
       "components": [
@@ -6073,7 +6077,7 @@
     "pharmacy-museums-united-kingdom.html": {
       "settings": {
         "title": "Pharmacy Museums United Kingdom",
-        "order": 19,
+        "order": 20,
         "meta_descr": "Pharmacy Museums United Kingdom picture galleries"
       },
       "components": [
@@ -6380,7 +6384,7 @@
     "london-science-museum-wellcome-galleries.html": {
       "settings": {
         "title": "London Science Museum Wellcome Galleries",
-        "order": 18,
+        "order": 19,
         "meta_descr": "London Science Museum Wellcome Galleries picture gallery"
       },
       "components": [
@@ -6684,7 +6688,7 @@
     "wales-national-botanic-gardens-apothecaries-hall.html": {
       "settings": {
         "title": "Wales National Botanic Gardens Apothecaries' Hall",
-        "order": 17,
+        "order": 18,
         "meta_descr": "Wales National Botanic Gardens Apothecaries' Hall picture gallery"
       },
       "components": [
@@ -7006,7 +7010,7 @@
     "norwich-bridewell-museum.html": {
       "settings": {
         "title": "Norwich Bridewell Museum",
-        "order": 16,
+        "order": 17,
         "meta_descr": "Norwich Bridewell Museum picture gallery"
       },
       "components": [
@@ -7310,7 +7314,7 @@
     "grasse-perfumery-museums.html": {
       "settings": {
         "title": "Grasse Perfumery Museums",
-        "order": 15,
+        "order": 16,
         "meta_descr": "Grasse Perfumery Museums picture gallery"
       },
       "components": [
@@ -7654,7 +7658,7 @@
     "soller-botanic-gardens-majorca.html": {
       "settings": {
         "title": "Soller Botanic Gardens Majorca",
-        "order": 14,
+        "order": 15,
         "meta_descr": "Soller Botanic Gardens Majorca picture gallery"
       },
       "components": [
@@ -7995,7 +7999,7 @@
     "valldemossa-mallorca-royal-carthusian-monastery .html": {
       "settings": {
         "title": "Valldemossa, Mallorca, Royal Carthusian Monastery ",
-        "order": 13,
+        "order": 14,
         "meta_descr": "Valldemossa, Mallorca, Royal Carthusian Monastery Picture Gallery"
       },
       "components": [
@@ -8336,7 +8340,7 @@
     "pamukkale-and-hierapolis.html": {
       "settings": {
         "title": "Pamukkale and Hierapolis",
-        "order": 12,
+        "order": 13,
         "meta_descr": "Pamukkale and Hierapolis Picture Gallery"
       },
       "components": [
@@ -8677,7 +8681,7 @@
     "basel-university-pharmacy-museum.html": {
       "settings": {
         "title": "Basel University Pharmacy Museum",
-        "order": 11,
+        "order": 12,
         "meta_descr": "Basel University Pharmacy Museum Picture Gallery"
       },
       "components": [
@@ -9024,7 +9028,7 @@
     "virginia-water-holloway-sanitorium.html": {
       "settings": {
         "title": "Virginia Water Holloway Sanitorium",
-        "order": 10,
+        "order": 11,
         "meta_descr": "Virginia Water Holloway Sanitorium Picture Gallery"
       },
       "components": [
@@ -9365,7 +9369,7 @@
     "the-astronomer-spittlefields-london.html": {
       "settings": {
         "title": "The Astronomer at Spittlefields, London",
-        "order": 9,
+        "order": 10,
         "meta_descr": "The Astronomer at Spittlefields, London, Picture Gallery"
       },
       "components": [
@@ -9706,7 +9710,7 @@
     "how-to-download-the-python-programming-language.html": {
       "settings": {
         "title": "How to Download the Python Programming Language",
-        "order": 7,
+        "order": 8,
         "meta_descr": "How to Download the Python Programming Language"
       },
       "components": [
@@ -10047,7 +10051,7 @@
     "programming.html": {
       "settings": {
         "title": "Programming",
-        "order": 8,
+        "order": 9,
         "meta_descr": "Programming Articles"
       },
       "components": [
@@ -10388,7 +10392,7 @@
     "page39.html": {
       "settings": {
         "title": "atestpage",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -10418,7 +10422,7 @@
     "page40.html": {
       "settings": {
         "title": "_newpage",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -10477,7 +10481,7 @@
     "page41.html": {
       "settings": {
         "title": "addtestpage",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -10592,7 +10596,7 @@
     "a-test-page.html": {
       "settings": {
         "title": "a test page",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -10622,7 +10626,7 @@
     "great-dixter.html": {
       "settings": {
         "title": "Great Dixter",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -10945,7 +10949,7 @@
     "garden-in-naples.html": {
       "settings": {
         "title": "garden in naples",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -10964,10 +10968,118 @@
           },
           "_name": "header1",
           "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/2021-02-22-10.37.17-2000x2667.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">garden in naples</h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\"></h3>\n        <p class=\"mbr-fonts-style mbr-text align-right mbr-pt-1 mbr-pb-3 mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            Full width intro with adjustable height, background image. Click any text to edit or style it.\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-warning\" href=\"index.html\" data-app-placeholder=\"Type Text\">HOME</a> <a class=\"btn btn-md btn-warning\" href=\"pharmacy-museums.html\" data-app-placeholder=\"Type Text\">\n                BACK</a></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/2021-02-22%2010.37.17-2000x2667.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">garden in naples</h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\"></h3>\n        <p class=\"mbr-fonts-style mbr-text align-right mbr-pt-1 mbr-pb-3 mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            Full width intro with adjustable height, background image. Click any text to edit or style it.\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-warning\" href=\"index.html\" data-app-placeholder=\"Type Text\">HOME</a> <a class=\"btn btn-md btn-warning\" href=\"pharmacy-museums.html\" data-app-placeholder=\"Type Text\">\n                BACK</a></div>\n    </div>\n\n</section>",
           "_anchor": "header1-5o",
           "_isUserblock": true,
           "_cid": "sX7EUEKPa2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".title when (@showTitle), (@showSubtitle)": {
+              "padding-bottom": "2rem"
+            },
+            "& when (@paddingCard)": {
+              ".image-wrap.pb": {
+                "& when (@imagesAmount > \"6\")": {
+                  "padding-bottom": "2rem"
+                },
+                "@media (min-width: 768px) and (max-width: 991px)": {
+                  "padding-bottom": "3rem"
+                }
+              },
+              ".image-wrap:not(.last-child)": {
+                "@media (max-width: 767px)": {
+                  "padding-bottom": "2rem"
+                }
+              },
+              "@media (min-width: 992px)": {
+                ".image-wrap.lg-px": {
+                  "padding-left": "1.5rem",
+                  "padding-right": "1.5rem",
+                  "&.pb": {
+                    "padding-bottom": "3rem"
+                  }
+                },
+                ".mbr-row when not (@imagesAmount = \"1\")": {
+                  "& when not (@imagesAmount = \"4\") and (@imagesAmount < \"7\")": {
+                    "margin-left": "-1.5rem",
+                    "margin-right": "-1.5rem"
+                  }
+                }
+              },
+              "& when not (@imagesAmount = \"1\")": {
+                "@media (min-width: 768px) and (max-width: 991px)": {
+                  ".image-wrap": {
+                    "padding-left": "1.5rem",
+                    "padding-right": "1.5rem"
+                  },
+                  ".mbr-row": {
+                    "margin-left": "-1.5rem",
+                    "margin-right": "-1.5rem"
+                  }
+                }
+              }
+            },
+            ".image-wrap when not (@paddingCard)": {
+              "padding": "0"
+            },
+            ".image-box when (@showCaption)": {
+              "position": "relative",
+              ".img-caption": {
+                "position": "absolute",
+                "display": "flex",
+                "align-items": "flex-end",
+                "bottom": "0",
+                "left": "0",
+                "width": "100%",
+                "height": "0px",
+                "background-color": "fade(@imgOverlayColor, @imgOverlayOpacity * 100%)",
+                "pointer-events": "none",
+                "transition": "all 0.3s",
+                "z-index": "10",
+                ".caption-text": {
+                  "margin": "0",
+                  "padding": "0.5rem",
+                  "width": "100%",
+                  "height": "auto",
+                  "pointer-events": "all",
+                  "transition": "all 0.1s 0.2s",
+                  "background-color": "fade(@imgOverlayColor, @imgOverlayOpacity * 100%)"
+                }
+              },
+              "@media (min-width: 768px)": {
+                "&:hover .img-caption": {
+                  "height": "100%",
+                  ".caption-text": {
+                    "background-color": "transparent",
+                    "transition": "all 0s"
+                  }
+                }
+              }
+            },
+            ".caption-text": {
+              "text-align": "center"
+            }
+          },
+          "_name": "gallery1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"gallery1\" group=\"Gallery &amp; Slider\" plugins=\"amp-main\">\n    <mbr-parameters>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n\n        <select title=\"Images\" name=\"imagesAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected=\"\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n        </select>\n        \n        <input type=\"checkbox\" title=\"Padding Card\" name=\"paddingCard\" checked=\"\">\n        <input type=\"color\" title=\"Image Overlay Color\" name=\"imgOverlayColor\" value=\"#494949\">\n        <input type=\"range\" inline=\"\" title=\"Image Overlay Opacity\" name=\"imgOverlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\">\n\n        <input type=\"checkbox\" title=\"Show Img Caption\" name=\"showCaption\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background6-1.jpg\">\n        </fieldset>\n    </mbr-parameters>\n    \n    <div class=\"container\">\n        <div class=\"title align-center\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-light mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Articles</h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Enter your gallery subtitle here</h4>\n        </div>\n       <div class=\"mbr-row mbr-justify-content-center\">\n           <div class=\"image-wrap mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4 lg-px': imagesAmount == 3 || (imagesAmount > 4 &amp;&amp; imagesAmount < 7),'mbr-col-lg-3': imagesAmount == 4 || imagesAmount > 6, 'mbr-col-lg-6 lg-px': imagesAmount == 2, 'mbr-col-lg-12 mbr-col-md-12': imagesAmount == 1, 'mbr-col-md-6': imagesAmount > 1, 'pb': imagesAmount > 4, 'last-child': imagesAmount == 1}\">\n               <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/img-1655-674x505.jpg\" layout=\"responsive\" height=\"252.745\" width=\"337.32699009900995\" alt=\"Internet of Things articles\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <a href=\"new-sundial-test.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/img-1655-674x505.jpg\" alt=\"Internet of Things articles\" title=\"\" data-aspectratio=\"0.7497219132369299\"></a>\n                    </amp-img>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Internet of Things</p>\n                    </div>\n               </div>\n            </div>\n            <div class=\"image-wrap mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4 lg-px': imagesAmount == 3 || (imagesAmount > 4 &amp;&amp; imagesAmount < 7), 'mbr-col-lg-3': imagesAmount == 4 || imagesAmount > 6, 'mbr-col-lg-6 lg-px': imagesAmount < 3, 'pb': imagesAmount > 4, 'last-child': imagesAmount == 2}\" mbr-if=\"imagesAmount > 1\">\n                <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/git-bash-program-581x440.jpg\" layout=\"responsive\" height=\"255.464\" width=\"337.3286\" alt=\"Programming articles\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <a href=\"programming.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/git-bash-program-581x440.jpg\" alt=\"Programming articles\" title=\"\"></a>\n                    </amp-img>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Programming</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"image-wrap mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4 lg-px': imagesAmount == 3 || (imagesAmount > 4 &amp;&amp; imagesAmount < 7), 'mbr-col-lg-3': imagesAmount == 4 || imagesAmount > 6, 'pb': imagesAmount > 4, 'last-child': imagesAmount == 3}\" mbr-if=\"imagesAmount > 2\">\n                <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/drug-run-1-674x505.jpg\" layout=\"responsive\" height=\"252.745\" width=\"337.32699009900995\" alt=\"History of Pharmacy articles\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <a href=\"history-of-pharmacy.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/drug-run-1-674x505.jpg\" alt=\"History of Pharmacy articles\" title=\"\"></a>\n                    </amp-img>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">History of Pharmacy</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"image-wrap mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4 lg-px': imagesAmount == 3 || (imagesAmount > 4 &amp;&amp; imagesAmount < 7), 'mbr-col-lg-3': imagesAmount == 4 || imagesAmount > 6, 'pb': imagesAmount > 6, 'last-child': imagesAmount == 4}\" mbr-if=\"imagesAmount > 3\">\n                <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/brewing-mash-tun-1-674x505.jpg\" layout=\"responsive\" height=\"252.745\" width=\"337.32699009900995\" alt=\"Brewing articles\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <a href=\"brewing.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/brewing-mash-tun-1-674x505.jpg\" alt=\"Brewing articles\" title=\"\"></a>\n                    </amp-img>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Brewing</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"image-wrap mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4 lg-px': (imagesAmount > 4 &amp;&amp; imagesAmount < 7), 'mbr-col-lg-3': imagesAmount > 6, 'last-child': imagesAmount == 5}\" mbr-if=\"imagesAmount > 4\">\n                <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/hydroponic-strawberries-watercress-1-674x505.jpg\" layout=\"responsive\" height=\"252.745\" width=\"337.32699009900995\" alt=\"Gardening articles\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <a href=\"gardening.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/hydroponic-strawberries-watercress-1-674x505.jpg\" alt=\"Gardening articles\" title=\"\"></a>\n                    </amp-img>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Gardening</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"image-wrap mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4 lg-px': (imagesAmount > 4 &amp;&amp; imagesAmount < 7), 'mbr-col-lg-3': imagesAmount > 6, 'last-child': imagesAmount == 6}\" mbr-if=\"imagesAmount > 5\">\n                <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/cabbage-farming-riding-court-1-674x505.jpg\" layout=\"responsive\" height=\"252.745\" width=\"337.32699009900995\" alt=\"Farming articles\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <a href=\"farming.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/cabbage-farming-riding-court-1-674x505.jpg\" alt=\"Farming articles\" title=\"\"></a>\n                    </amp-img>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Farming</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"image-wrap mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3\" mbr-class=\"{'last-child': imagesAmount == 7}\" mbr-if=\"imagesAmount > 6\">\n                <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"@THEME_PATH@/components/_images/img/07.jpg\" layout=\"responsive\" height=\"100\" width=\"150.093808630394\" alt=\"Mobirise\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"false\" alt=\"Mobirise\">\n                    </amp-img>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Type caption here</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"image-wrap mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 last-child\" mbr-if=\"imagesAmount > 7\">\n                <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"@THEME_PATH@/components/_images/background6.jpg\" layout=\"responsive\" height=\"100\" width=\"150\" alt=\"Mobirise\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"false\" alt=\"Mobirise\">\n                    </amp-img>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Type caption here</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "gallery1-5p",
+          "_isUserblock": true,
+          "_cid": "sXvmK8bCYw",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -10989,11 +11101,66 @@
           "_sourceTheme": "mobirise-amp",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#20202a\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">© Copyright 2020 Dr Dulcamara - All Rights Reserved - doctor@dulcamara.co.uk</p>\n        </div>\n    </div>\n</section>",
           "_cid": "smb7fuftc3",
+          "_anchor": "footer1-5n",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-5n"
+          "_params": {}
+        }
+      ]
+    },
+    "new-sundial-test.html": {
+      "settings": {
+        "title": "New Sundial Test",
+        "order": 1
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "header1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img-1655-2000x1500.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">New Sundial Test</h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light mbr-pt-1 mbr-pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\"></h3>\n        <p class=\"mbr-fonts-style mbr-text align-right mbr-pt-1 mbr-pb-3 mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            Full width intro with adjustable height, background image. Click any text to edit or style it.\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-warning\" href=\"index.html\" data-app-placeholder=\"Type Text\">HOME</a> <a class=\"btn btn-md btn-warning\" href=\"pharmacy-museums.html\" data-app-placeholder=\"Type Text\">\n                BACK</a></div>\n    </div>\n\n</section>",
+          "_anchor": "header1-5s",
+          "_isUserblock": true,
+          "_cid": "sXvnMEIHem",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#20202a\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">© Copyright 2020 Dr Dulcamara - All Rights Reserved - doctor@dulcamara.co.uk</p>\n        </div>\n    </div>\n</section>",
+          "_cid": "smb7fuftc3",
+          "_anchor": "footer1-5r",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
         }
       ]
     }
